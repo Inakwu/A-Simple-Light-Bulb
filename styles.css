@@ -1,0 +1,74 @@
+body {
+    font-family: 'Montserrat-black', serif;
+    background: #ECF2FF;
+    color: var(--clr-grey-1);
+    line-height: 1.5;
+    font-size: 0.875rem;
+}
+
+h2{
+    text-transform: capitalize;
+    font-family: var(--ff-primary);
+    font-size: 3rem;
+    color: blueviolet;
+}
+
+.bulb-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.bulb-container h2{
+    margin-top: 20px;
+}
+
+.btn{
+    margin: 0 auto;
+    font-size: 1.5rem;
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    display: block;
+    border: 2px solid var(--clr-black);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: var(--radius);
+    color: var(--clr-black);
+    transition: 2s;
+}
+
+.btn:hover {
+    transform: rotate(30deg);
+}
+
+.img{
+    margin: 0 auto;
+}
+
+/* hide text */
+.turn-off{
+    display: none;
+}
+
+.show-bulb .turn-off{
+    display: block;
+}
+
+.off-btn{
+    display: none;
+}
+
+.show-bulb .off-btn{
+    display: block;
+}
+
+.show-bulb .turn-on{
+    display: none;
+}
+
+.show-bulb .on-btn{
+    display: none;
+}
+
